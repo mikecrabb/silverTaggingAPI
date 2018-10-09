@@ -1,5 +1,5 @@
 <?php
-
+header("Access-Control-Allow-Origin: *");
 define('INCLUDE_DIR', dirname(__FILE__) . '/inc/');
 
 $rules = array(
