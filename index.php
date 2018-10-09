@@ -6,17 +6,23 @@ $rules = array(
     //
     //API Routes
     //get
-    'apiGuidelines' => "/api/guidelines",
-    'apiSingleGuideline' => "/api/guidelines/(?'guidelineID'[\w\-]+)",
-    'apiMethods' => "/api/methods",
-    'apiSingleMethod' => "/api/methods/(?'methodID'[\w\-]+)",
-    'apiTagCategories' => "/api/categories",
-    'apiSingleTagCategory' => "/api/categories/(?'categoryID'[\w\-]+)",
-    'apiTags' => "/api/tags",
-    'apiSingleTag' => "/api/tags/(?'categoryID'[\w\-]+)",
-    'apiCategoryTags' => "/api/categoryTags/(?'categoryID'[\w\-]+)",
+    'api/apiGuidelines' => "/api/guidelines",
+    'api/apiSingleGuideline' => "/api/guidelines/(?'guidelineID'[\w\-]+)",
+    'api/apiMethods' => "/api/methods",
+    'api/apiSingleMethod' => "/api/methods/(?'methodID'[\w\-]+)",
+    'api/apiTagCategories' => "/api/categories",
+    'api/apiSingleTagCategory' => "/api/categories/(?'categoryID'[\w\-]+)",
+    'api/apiTags' => "/api/tags",
+    'api/apiSingleTag' => "/api/tags/(?'categoryID'[\w\-]+)",
+    'api/apiCategoryTags' => "/api/categoryTags/(?'categoryID'[\w\-]+)",
+    'api/apiGuidelineMethods' => "/api/guidelineMethods/(?'categoryID'[\w\-]+)",
+    'api/apiMethodGuidelines' => "/api/methodGuidelines/(?'categoryID'[\w\-]+)",
+    //
+    //
+    'webApp/guidelines' => "/guidelines",
 
     //
+
     'home' => "/"
     //
     // Style
