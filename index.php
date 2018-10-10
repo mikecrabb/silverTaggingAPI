@@ -17,6 +17,8 @@ $rules = array(
     'api/apiCategoryTags' => "/api/categoryTags/(?'categoryID'[\w\-]+)",
     'api/apiGuidelineMethods' => "/api/guidelineMethods/(?'categoryID'[\w\-]+)",
     'api/apiMethodGuidelines' => "/api/methodGuidelines/(?'categoryID'[\w\-]+)",
+    'api/apiTaggedMethods' => "/api/taggedMethods/(?'categoryID'[\w\-]+)",
+
     //
     //
     'webApp/guidelines' => "/guidelines",
