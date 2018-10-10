@@ -17,3 +17,4 @@ This prototype is used to test out the tagging system and information architectu
 | /api/guidelineMethods/{{number}} | returns a list of all methods to fulfil a single guideline
 | /api methodGuidelines/{{number}} | returns a list of guidelines that a single method fulfils
 | /api/taggedMethods/{{number}} | returns a list of methods when provided with a tagID
+| /api/methodTags/{{number}} | returns a list of tags that are associated with a given method |
